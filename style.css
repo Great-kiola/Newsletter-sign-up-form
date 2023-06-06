@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'robotoBold', sans-serif ;
+  font-family: 'robotoBold', sans-serif;
   src: url(./assets/fonts/Roboto-Bold.ttf);
 }
 
@@ -25,71 +25,73 @@ body {
   font-family: 'robotRegular', Arial, Helvetica, sans-serif;
 }
 
-.container{
+.container {
   background-color: var(--White);
   margin-bottom: 20px;
   width: 850px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   padding: 25px;
   border-radius: 20px;
+  display: none;
 }
 
-.firstCon{
+.firstCon {
   margin: 5px 30px;
 }
 
-h1{
+h1 {
   font-size: 3rem;
+  line-height: 1;
 }
 
-p{
+p {
   width: 360px;
   font-size: .9rem;
 }
 
-ul{
+ul {
   list-style: none;
   margin: 20px auto;
 }
 
-li{
+li {
   font-size: .9rem;
   display: flex;
   align-items: center;
   padding: 4px 0px;
 }
 
-ul li img{
+ul li img {
   margin: 0px 5px 0px 0px;
 }
 
-input{
+input {
   padding: 15px;
   border-radius: 8px;
   border: 1px solid var(--Grey);
 }
 
-input[type="text"]:focus{
+input[type="text"]:focus {
   border: 1px solid var(--Grey);
   outline: none;
 
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   margin: 20px auto;
 }
 
-form label{
+form label {
   font-size: .8rem;
   font-weight: bolder;
   margin-bottom: 5px;
 }
 
-.submitBtn{
+.submitBtn {
   width: 100%;
   margin: 10px auto;
   padding: 20px;
@@ -101,13 +103,23 @@ form label{
 }
 
 
-.successCon{
-  display: none;
+.successCon {
+  /* display: none; */
+  background-color: var(--White);
+  margin-bottom: 20px;
+  width: 500px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 20px;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--White);
 }
 
 .attribution a {
