@@ -136,6 +136,10 @@ input.error{
   cursor: pointer;
 }
 
+.submitBtn:hover {
+  background-image: linear-gradient( to left, #ff9545ff,  #fe527bff,  hsl(4, 100%, 67%) );
+}
+
 
 .successCon {
   display: none;
