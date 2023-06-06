@@ -104,9 +104,17 @@ label{
   position: relative;
 }
 
-label::after{
+.errorMsg{
+  font-size: .8rem;
+  font-weight: bolder;
+  position: relative;
+  display: none;
+}
+
+.errorMsg::before{
   content: "Invalid email address";
   position: absolute;
+  bottom: 5px;
   right: 0px;
   color: var(--Tomato);
 }
