@@ -154,6 +154,10 @@ input.error{
   border-radius: 20px;
 }
 
+.successCon img{
+  width: 55px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

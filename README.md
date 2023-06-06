@@ -4,7 +4,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src="./misc/Screenshot .png" alt="completed Screenshot">
 
 ### The challenge
 
