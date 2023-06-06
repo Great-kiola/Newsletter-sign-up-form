@@ -22,7 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-family: 'robotRegular', Arial, Helvetica, sans-serif;
+  font-family: 'robotoBold', sans-serif;
 }
 
 .container {
@@ -52,6 +52,8 @@ p {
   width: 360px;
   font-size: .9rem;
   margin-bottom: 20px;
+  font-family: 'robotRegular', sans-serif;
+  font-weight: bold;
 }
 
 ul {
@@ -60,7 +62,7 @@ ul {
 }
 
 li {
-  font-size: .9rem;
+  font-size: .8rem;
   display: flex;
   align-items: center;
   padding: 4px 0px;
