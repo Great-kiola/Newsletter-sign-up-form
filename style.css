@@ -22,7 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-family: 'robotRegular', sans-serif;
+  font-family: 'robotRegular', Arial, Helvetica, sans-serif;
 }
 
 .container{
@@ -32,12 +32,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 25px;
   border-radius: 20px;
+}
+
+.firstCon{
+  margin: 5px 30px;
 }
 
 h1{
   font-size: 3rem;
+}
+
+p{
+  width: 360px;
+  font-size: 1rem;
 }
 
 ul{
@@ -48,20 +57,46 @@ ul{
 li{
   display: flex;
   align-items: center;
+  padding: 4px 0px;
 }
 
 ul li img{
   margin: 0px 5px 0px 0px;
 }
 
+input{
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid var(--Grey);
+}
+
+input[type="text"]:focus{
+  border: 1px solid var(--Grey);
+  outline: none;
+
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+
+form label{
+  font-size: .8rem;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
 .submitBtn{
-  width: 90%;
+  width: 100%;
   margin: 10px auto;
   padding: 20px;
   border: none;
   background-color: var(--DarkSlateGrey);
   color: var(--White);
   border-radius: 10px;
+  cursor: pointer;
 }
 
 
