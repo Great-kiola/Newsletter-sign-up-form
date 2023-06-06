@@ -28,17 +28,21 @@ body {
 .container {
   background-color: var(--White);
   margin-bottom: 20px;
-  width: 850px;
-  /* display: flex; */
+  width: 800px;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 25px;
   border-radius: 20px;
-  display: none;
+  /* display: none; */
 }
 
 .firstCon {
   margin: 5px 30px;
+}
+
+.secondCon img{
+  height: 500px;
 }
 
 h1 {
@@ -96,6 +100,23 @@ form label {
   margin-bottom: 5px;
 }
 
+label{
+  position: relative;
+}
+
+label::after{
+  content: "Invalid email address";
+  position: absolute;
+  right: 0px;
+  color: var(--Tomato);
+}
+
+input.error{
+  outline: 1.5px solid var(--Tomato);
+  border: none;
+  background-color: hsl(4, 100%, 67%, 15%);
+}
+
 .submitBtn {
   width: 100%;
   margin: 10px auto;
@@ -109,12 +130,12 @@ form label {
 
 
 .successCon {
-  /* display: none; */
+  display: none;
   background-color: var(--White);
   margin-bottom: 20px;
   width: 450px;
   min-height: 300px;
-  display: flex;
+  /* display: flex; */
   align-items: flex-start;
   flex-direction: column;
   padding: 45px;
